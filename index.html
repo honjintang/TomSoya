@@ -7,150 +7,106 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
-      <link rel="stylesheet" type="text/css" href="main.css">
+      <link rel="stylesheet" type="text/css" href="mainCss.css">
     <title></title>
   </head>
   <body>
-
-    <div class="row" id="navigationBar">
-      <div class="col" id="logoContainer">
+      <div class="navBar">
           <a id="logo" href="#">
-        <img id="logoImage" src="assets/logo.png" alt="Logo">
+            <img src="assets/logo.png" alt="Logo">
           </a>
-      </div>
-      <div class="col" id="col-navlink1">
-          <a class="navBarLink" href="#about">About</a>
-      </div>
-      <div class="col" id="col-navlink2">
-          <a class="navBarLink" href="#products">Products</a>
-      </div>
-      <div class="col" id="col-navlink3">
-          <a class="navBarLink" href="#buy">Buy</a>
-      </div>
-      <div class="col" id="col-navlink4">
-          <a class="navBarLink" href="#contact">Contact</a>
+          <div class="navLinks">
+            <a href="#about">About</a></li>
+            <a href="#products">Products</a>
+            <a href="#buy">Buy</a></li>
+            <a href="#contact">Contact</a>
+          </div>       
+        </div>
+
+      <img id="mainImage" src="assets/largeImageClipped.png">
+      <div class="section">
+        <div class="sectionHead" id="about">
+          <p class="sectionHeader">ABOUT</p>
+          <img src="assets/bar1.png">
+        </div>
+        <div class="sectionText">
+        <p>At Tom Soya, we make adventurous little kits to teach you how to cook authentic tofu in minutes, whilst also promoting soya as a healthy and delicious plant-protein. All our products are 100% vegan.</p>
+        <br>
+        <p id="ourStory">OUR STORY</p>
+        <br>
+        <p>Jessie, our founder, grew up in a family obsessed with food – good quality home-cooked Chinese food. And tofu had always been a big part of that. </p>
+        <br>
+        <p>Her great-grandfather had been the village tofu-maker and the secrets to rustling up amazing tofu was passed from generation to generation. However growing up in the UK meant that it was hard to buy authentic tofu, and even harder to convince her friends that tofu was a delicious and easy alternative to meat. She was told it was ‘bland’ and ‘texture-less’ – so she set out to prove them wrong!</p>
+        <br>
+        <p>We are at an early stage in our story and are soon to sell our tofu kits in a London street market. We would love to hear from you about anything – a question, a quick chat or an idea for collaboration!</p>
       </div>
     </div>
 
-<div class="row">
-    <div class="col">
-      <img src="assets/largeImageClipped.png">
-    </div>
-</div>
-
-<div class="row">
-  <div class="col">
-    <div class="sectionBody">
-      <div class="sectionHeader" id="about">
-        <p>ABOUT</p>
-        <img src="assets/bar1.png">
-      </div>
-      <div class="sectionText">
-      <p>At Tom Soya, we make adventurous little kits to teach you how to cook authentic tofu in minutes, whilst also promoting soya as a healthy and delicious plant-protein. All our products are 100% vegan.</p>
-      <br>
-      <p class="ourStory">OUR STORY</p>
-      <br>
-      <p>Jessie, our founder, grew up in a family obsessed with food – good quality home-cooked Chinese food. And tofu had always been a big part of that. </p>
-      <br>
-      <p>Her great-grandfather had been the village tofu-maker and the secrets to rustling up amazing tofu was passed from generation to generation. However growing up in the UK meant that it was hard to buy authentic tofu, and even harder to convince her friends that tofu was a delicious and easy alternative to meat. She was told it was ‘bland’ and ‘texture-less’ – so she set out to prove them wrong!</p>
-      <br>
-      <p>We are at an early stage in our story and are soon to sell our tofu kits in a London street market. We would love to hear from you about anything – a question, a quick chat or an idea for collaboration!</p>
-    </div>
-  </div>
-</div>
-</div>
-
-<div class="row">
-  <div class="col">
-    <div class="headerContainer">
-      <div class="sectionHeader" id="products">
-        <p>PRODUCTS</p>
+    <div class="section">
+      <div class="sectionHead" id="products">
+        <p class="sectionHeader">PRODUCTS</p>
         <img src="assets/bar2.png">
       </div>
-    </div>
+
+      <div class="productBody">
+        <div class="productRow">
+          <img src="assets/mapo.png">
+          <div class="productText right">
+            <p class="sectionHeader red">KOREAN MA PO TOFU</p>
+            <br>
+            <p class="sectionText">Silken tofu in an intense sauce of Gochujang (Korean red chilli paste) and Szechuan pepper. The traditional Mapo tofu with a Korean twist!</p>
+          </div>
+        </div>
+    
+        <div class="productRow">
+          <div class="productText left">
+            <p class="sectionHeader green">CHINESE HOMESTYLE-TOFU<p>
+            <br>
+            <p class="sectionText" id="homestyleText">Firm tofu with the flavours of traditional Chinese home-cooking: ginger, garlic, soya sauce and sesame oil. With just enough crisp and honey-glaze, deliciously simple and satisfying. </p>
+          </div>
+          <img src="assets/homestyle.png">
+        </div>
+
+        <div class="productRow">
+          <img src="assets/vietnamese.png">
+          <div class="productText right">
+            <p class="sectionHeader blue">VIETNAMESE TOFU</p>
+            <br>
+            <p class="sectionText">Packed with the powerful, fresh flavours of lemongrass and lime, a dash of miso for depth of flavour, and a sprinkling of crushed peanuts.</p>
+          </div>
+        </div>
+
+        <div class="productRow">
+          <div class="productText left">
+            <p class="sectionHeader yellow">KUNG PAO TOFU<p>
+            <br>
+            <p class="sectionText" id="homestyleText">Extra-firm, marinated tofu stir-fried with whole, dried chillis and cashew nuts. Spicy, warming and moreish. </p>
+          </div>
+          <img src="assets/kungpao.png">
+        </div>
+        </div>
   </div>
-</div>
 
-<div class="row">
-  <div class="col">
-    <div class="productBody">
-
-    <div class="row" id="mapoRow">
-        <div class="col">
-          <img id="mapoImage" src="assets/mapo.png">
+  <div class="section">
+        <div class="sectionHead" id="buy">
+          <p class="sectionHeader">BUY</p>
+          <img src="assets/bar1.png">
         </div>
-        <div class="col" id="tofuDescription1">
-          <p class="sectionHeader" id="mapo">KOREAN MA PO TOFU</p>
-          <br>
-          <p class="sectionText" id="mapoText">Silken tofu in an intense sauce of Gochujang (Korean red chilli paste) and Szechuan pepper. The traditional Mapo tofu with a Korean twist!</p>
-        </div>
-      </div>
-
-      <div class="row" id="homestyleRow">
-        <div class="col" id="tofuDescription2">
-          <p class="sectionHeader" id="homestyle">CHINESE HOMESTYLE-TOFU<p>
-          <br>
-          <p class="sectionText" id="homestyleText">Firm tofu with the flavours of traditional Chinese home-cooking: ginger, garlic, soya sauce and sesame oil. With just enough crisp and honey-glaze, deliciously simple and satisfying. </p>
-        </div>
-        <div class="col">
-          <img id="homestyleImage" src="assets/homestyle.png">
-        </div>
-      </div>
-
-      <div class="row" id="vietnameseRow">
-        <div class="col">
-          <img id="vietnameseImage" src="assets/vietnamese.png">
-        </div>
-        <div class="col" id="tofuDescription3">
-          <p class="sectionHeader" id="vietnamese">VIETNAMESE TOFU<p>
-          <br>
-          <p class="sectionText" id="vietnameseText">Packed with the powerful, fresh flavours of lemongrass and lime, a dash of miso for depth of flavour, and a sprinkling of crushed peanuts.</p>
-        </div>
-      </div>
-
-      <div class="row" id="kungpaoRow">
-        <div class="col" id="tofuDescription4">
-          <p class="sectionHeader" id="kungpao">KUNG PAO TOFU<p>
-          <br>
-          <p class="sectionText" id="kungpaoText">Extra-firm, marinated tofu stir-fried with whole, dried chillis and cashew nuts. Spicy, warming and moreish.</p>
-        </div>
-        <div class="col">
-          <img id="kungpaoImage" src="assets/kungpao.png">
-        </div>
-      </div>
-
-    </div>
+        <p class="sectionText">Coming soon!</p>
   </div>
-</div>
-
-<div class="row">
-  <div class="col">
-    <div class="sectionBody">
-      <div class="sectionHeader" id="buy">
-        <p>BUY</p>
-        <img src="assets/bar1.png">
+  
+  <div class="section">
+        <div class="sectionHead" id="contact">
+          <p class="sectionHeader">CONTACT</p>
+          <img src="assets/bar2.png">
+        </div>
+        <div class="sectionText">
+        <p>We would love to hear from you!</p>
+        <p>Email: info@tomsoya.co.uk</p>
       </div>
-      <p class="sectionText">Coming soon!</p>
-    </div>
   </div>
-</div>
 
-<div class="row">
-  <div class="col">
-    <div class="sectionBody">
-      <div class="sectionHeader" id="contact">
-        <p>CONTACT</p>
-        <img src="assets/bar2.png">
-      </div>
-      <div class="sectionText">
-      <p>We would love to hear from you!</p>
-      <p>Email: info@tomsoya.co.uk</p>
-    </div>
-    </div>
-  </div>
-</div>
 
-<div class="row">
     <div class="footerSocial">
       <a href="https://www.facebook.com/TomSoyaFoods/">
         <img class="socialButton" src="assets/facebook.png">
@@ -159,7 +115,6 @@
         <img class="socialButton" src="assets/instagram.png">
       </a>
     </div>
-</div>
 
   </body>
 </html>

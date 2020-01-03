@@ -1,0 +1,130 @@
+@font-face {
+    font-family: "TheLightFont";
+    src: url("assets/TheLightFont.otf");
+  }
+  
+@font-face {
+    font-family: "GeoSansLight";
+    src: url("assets/GeosansLight.ttf");
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.navBar {
+    max-height: 70px;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 30px 0 30px;
+}
+
+.navLinks {
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.navLinks a {
+    font-family: "GeoSansLight";
+    font-size: 30px;
+    color: grey;
+}
+
+#logo {
+    width: 70px;
+    display: flex;
+    align-self: baseline;
+}
+
+#logo img {
+    max-width: 100%;
+}
+
+#mainImage {
+    width: 100vw;
+}
+
+.section {
+    padding: 40px 80px 0 80px;
+}
+
+.sectionHead {
+  display: flex;
+  flex-direction: column;
+}
+
+.sectionHeader {
+    font-family: "TheLightFont";
+    font-size: 25px;
+    line-height: initial;
+    margin: 0;
+}
+
+.sectionText {
+    font-family: "GeoSansLight";
+    font-size: 20px;
+}
+
+#ourStory {
+    font-family: "TheLightFont";
+}
+
+.productBody {
+    padding-left: 15vw;
+    padding-right:15vw;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.productRow {
+    display: flex;
+}
+
+.productRow img {
+    width: 50%;
+}
+
+.productText { 
+    margin: auto;
+}
+
+.right {
+    padding-left: 20px;
+    text-align: left;
+}
+
+.left {
+    padding-right: 20px;
+    text-align: right;
+}
+
+.red {
+    color: #ff8383;
+}
+
+.green {
+    color:  #4cce4c;
+}
+
+.blue {
+    color: #237bff;
+}
+
+.yellow {
+    color: #dfb300;
+}
+
+.footerSocial {
+    max-height: 70px;
+    margin: 0 80px 0 80px;
+}
+
+.socialButton {
+    width: 40px;
+}
